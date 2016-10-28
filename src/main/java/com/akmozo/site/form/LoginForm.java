@@ -6,7 +6,6 @@ public class LoginForm implements ActionForm {
     
     private String login;
     private String pass;
-    private int num;
 
     public LoginForm() {
     }
@@ -32,17 +31,9 @@ public class LoginForm implements ActionForm {
         this.pass = paramPass;
     }
 
-    public int getNum() {
-        return num;
-    }
-
-    public void setNum(int paramNum) {
-        this.num = paramNum;
-    }
-
     @Override
     public boolean validateForm() {
-        return !"".equals(login) && !"".equals(pass) && num > 0;
+        return !"".equals(login) && !"".equals(pass);
     }
 
 }
