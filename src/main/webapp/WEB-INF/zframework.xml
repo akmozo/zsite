@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zframework>
+    <actions>       
+        <action>
+            <action-class>com.akmozo.site.beans.LoginAction</action-class>
+            <url-pattern>/login.php</url-pattern>
+            <form-name>loginForm</form-name>
+            <pages><page value="/ok.jsp" name="valid"/><page value="/error.jsp" name="not-valid"/><page value="/error.jsp" name="default"/></pages>
+        </action>             
+    </actions>
+    <forms>
+        <form>
+            <form-class>com.akmozo.site.forms.LoginForm</form-class>
+            <form-origin>/</form-origin>
+        </form>     
+    </forms>
+</zframework>

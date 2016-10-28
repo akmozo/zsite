@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:product
+    
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+    xmlns:p='http://www.akmozo.com/2016/Product'
+    xsi:schemaLocation='http://www.akmozo.com/2016/Product file://C:/cours/framework/test/target/classes/product.xsd'  num="5963">
+    
+    <p:
+    
+</p:product>
