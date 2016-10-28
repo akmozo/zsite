@@ -7,7 +7,7 @@ public class LoginAction implements Action {
 
     @Override
     public String execute(HttpServletRequest paramRequest) {        
-        return "hello";        
+        return "valid";        
     }
 
 }
